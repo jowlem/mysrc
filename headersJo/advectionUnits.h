@@ -103,7 +103,7 @@ public:
     /// viscosity in lattice units
     T getLatticeNu() const      { return (1e-6)*(getDeltaT()/(getDeltaX()*getDeltaX())); }
     /// thermal conductivity in lattice units
-    T getLatticeKappa() const   { return 1e-5; }
+    T getLatticeKappa() const   { return 5e-6; }
     /// viscosity in lattice units
     T getLatticeGravity() const { return getDeltaT() * getDeltaT() / getDeltaX(); }
     /// relaxation time
